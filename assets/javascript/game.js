@@ -11,7 +11,6 @@ document.onkeyup = funtion (event){
     var userGuess = event.key;
     //continuously add new items to the guesses array
     guessesSoFar.push(userGuess);
-    
     var psychicAnswer = psychicLetters[Math.floor(Math.random()*psychicLetters.length)];
 
 
@@ -41,7 +40,7 @@ if (guessesleft === 0) {
 
 //setting up innerHTML 
 
-var html = "<p>Guess what letter I'm thinking of...</p>" + "<p>Wins: " + Win + "</p>" + "<p>Loses: " + Lose + "<p>Guesses Left: " + guessesRemaining + "<p>Your Guesses so far: " + guessedLetters.join(', '); //Reveal guessed letters here
+var html = "<p>Guess what letter I'm thinking of...</p>" + "<p>Wins: " + Win + "</p>" + "<p>Losses: " + Lose + "<p>Guesses Left: " + guessesLeft + "<p>Your Guesses so far: " + guessesSoFar.join(', ');
 document.getElementById("pennpsychic").innerHTML = html;
 
 
