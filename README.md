@@ -1,2 +1,4 @@
 # Psychic-Game
-Simple HTML/JS app that randomly picks a letter, and then user has to guess the chosen letter.
+HTML/CSS/JS app that randomly picks a letter, and then allows user to guess the chosen letter.
+
+

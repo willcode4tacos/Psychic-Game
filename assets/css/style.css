@@ -1,0 +1,29 @@
+/*Penn Psyschic Style Sheet*/
+
+body {
+	background-image: url(https://qz.com/wp-content/uploads/2017/01/psychedelic-pattern.jpg?quality=80&strip=all&w=1600);
+	background-size: cover;
+	margin: 0 auto;
+	padding: 0 auto;
+	width: 960px;
+}
+
+#pennpsychic {
+	height: 100%;
+	width: 800px;
+	padding: 20px;
+	margin-top: 85px;
+	background-color: rgba(12, 11, 10, 0.41);
+}
+
+h1 {
+	color: #ffffff;
+	font-size: 80px;
+	text-shadow: 2px 2px #FFB733;
+}
+
+p {
+	font-family: 'Helevetica';
+	font-size: 50px;
+	color: #ffffff;
+}
